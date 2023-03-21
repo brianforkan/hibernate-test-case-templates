@@ -163,7 +163,7 @@ public class JPAUnitTestCase {
 		public void setType(String type) {
 			this.type = type;
 		}
-		@Column(name = "TYPE", insertable = false, updatable = false)
+		@Column(name = "TYPE")
 		private String type;
 	}
 }
